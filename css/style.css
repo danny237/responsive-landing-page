@@ -195,21 +195,19 @@ footer{
     font-size: 20px;
   }
 
-  /* Paragraph font-size */
+
+  /* Header Style */
   .header-content h2 {
     font-size: 15px;
   }
-
-
-  /* Header Style */
-  .header-content {
-    padding-top: 30vh;
+  .header-content h2 span{
+    color: #f1c11a;
+    line-height: 0px;
   }
 
-  
-  .header-content h4 span{
-    color: #f1c11a;
-    line-height: 100px;
+
+  .header-content {
+    padding-top: 30vh;
   }
 
   .header .btn{
@@ -217,6 +215,10 @@ footer{
   }
 
   /* intro section */
+  .intro {
+    padding: 30px;
+  }
+
   .intro-img {
     margin: 10px 0;
   }
@@ -225,11 +227,13 @@ footer{
     margin-top: 20px;
     line-height: 20px;
   }
+
+  /* Services Section */
   .services{
   background-color: #f1c11a;
-  height: 135vh;
+  height: 140vh;
   clip-path: polygon(0 0, 25% 0, 50% 2%, 75% 0, 100% 0, 100% 100%, 0 100%, 0 0);
-  margin-top: -30vh;
+  margin-top: 50px;
 }
 
   .bucket {
@@ -243,7 +247,7 @@ footer{
   }
 
   .btn-submit{
-    margin-left: 30px;
+    margin-left: 25px;
   }
 
   footer{
